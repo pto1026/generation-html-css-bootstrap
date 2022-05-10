@@ -1,4 +1,26 @@
-html, body {
-  height: 100%;
+:root {
+  --gray: #212529;
+}
+
+/* *,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+} */
+
+body {
+  font-family: "Oswald", sans-serif;
+  color: var(--gray);
+  /* overflow-x: hidden; */
+}
+
+.learn-more__image {
   width: 100%;
+  height: auto;
+  background-size: cover;
 }
